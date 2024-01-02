@@ -12,3 +12,5 @@ final resultP = StateProvider<GeminiAiResponseModel?>((ref) => null);
 final toValidate = StateProvider<bool>((ref) => true);
 final fromValidate = StateProvider<bool>((ref) => true);
 
+final isConnectionButtonLoading = StateProvider.autoDispose((_) => false);
+

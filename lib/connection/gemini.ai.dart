@@ -28,7 +28,7 @@ Future<GeminiAiResponseModel?> generateContent(WidgetRef ref) async {
       }
     ]
   };
-  print('Request Body: $requestBody');
+  //print('Request Body: $requestBody');
 
   final response = await http.post(
     Uri.parse(apiUrl),
